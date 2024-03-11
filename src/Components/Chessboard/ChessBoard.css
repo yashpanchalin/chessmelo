@@ -8,15 +8,18 @@
     width: 600px;
 }
 
-.boardTiles{
-    width: 60px;
-    height: 60px;
-}
-
-.greenTiles{
-    background-color: #779556;
-}
-
 .whiteTiles{
     background-color:#ebecd0 ;
 }
+
+@media screen and (min-width: 410px) {
+    .chessBoard {
+      margin-left: 110px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .chessBoard {
+      margin-left: 15px;
+    }
+  }

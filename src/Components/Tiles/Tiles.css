@@ -1,0 +1,12 @@
+.tiles{
+    width: 60px;
+    height: 60px;
+}
+
+.greenTiles{
+    background-color: #779556;
+}
+
+.whiteTiles{
+    background-color: #ebecd0;
+}

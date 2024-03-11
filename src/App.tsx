@@ -4,6 +4,7 @@ import SignUp from "./Components/Registration/SignUp";
 import NavBar from "./Components/NavBar/NavBar";
 import ChessBoard from "./Components/Chessboard/ChessBoard";
 import "./App.css";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }
