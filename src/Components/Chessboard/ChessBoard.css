@@ -1,0 +1,22 @@
+.chessBoard{
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 600px;
+    width: 600px;
+}
+
+.boardTiles{
+    width: 60px;
+    height: 60px;
+}
+
+.greenTiles{
+    background-color: #779556;
+}
+
+.whiteTiles{
+    background-color:#ebecd0 ;
+}

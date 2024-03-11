@@ -17,13 +17,17 @@ const SignInClick = () => {
   window.location.href = "/signin";
 };
 
+const ChessmeloClick = () => {
+  window.location.href = "/";
+};
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-black">
+    <Disclosure as="nav" className="bg-transparent">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -47,7 +51,10 @@ export default function NavBar() {
                     src="./assets/logo1.svg"
                     alt="Your Company"
                   />
-                  <span className="block text-sm font-medium leading-6 text-white">
+                  <span
+                    className="block text-sm font-medium leading-6 text-black cursor-pointer"
+                    onClick={ChessmeloClick}
+                  >
                     Chessmelo
                   </span>
                 </div>
